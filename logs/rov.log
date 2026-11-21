@@ -1,0 +1,342 @@
+2026-11-20 14:14:01,989 - INFO - ROV application started
+2026-11-20 14:14:02,446 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:02,446 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:02,948 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:02,948 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:03,449 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:03,449 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:03,950 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:03,951 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:04,455 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:04,455 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:04,957 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:04,957 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:05,458 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:05,459 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:05,960 - DEBUG - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': True}
+2026-11-20 14:14:05,960 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:05,960 - DEBUG - Pressed keys: {'up', 'right'}
+2026-11-20 14:14:06,461 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:06,462 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:06,962 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:06,962 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:07,463 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:07,464 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:07,966 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:07,966 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:08,468 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:08,468 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:08,970 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': True, 'left': False, 'right': False}
+2026-11-20 14:14:08,971 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:08,971 - DEBUG - Pressed keys: {'down'}
+2026-11-20 14:14:09,473 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': True, 'right': False}
+2026-11-20 14:14:09,473 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:09,474 - DEBUG - Pressed keys: {'left'}
+2026-11-20 14:14:09,975 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:09,975 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:10,477 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:10,477 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:10,478 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:14:10,980 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:10,980 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:10,980 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:14:11,482 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:11,482 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:11,983 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:11,983 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:12,484 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:12,484 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:12,985 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:12,985 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:13,489 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:13,490 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:13,992 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:13,992 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:14,101 - INFO - Stopping application
+2026-11-20 14:14:14,177 - INFO - ROV application stopped
+2026-11-20 14:14:23,613 - INFO - ROV application started
+2026-11-20 14:14:23,898 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:23,898 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:24,400 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:24,401 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:24,901 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:24,901 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:25,402 - DEBUG - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:25,402 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:25,403 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:14:25,904 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': True, 'right': False}
+2026-11-20 14:14:25,904 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:25,904 - DEBUG - Pressed keys: {'left'}
+2026-11-20 14:14:26,406 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:26,407 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:26,908 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:26,908 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:26,908 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:14:27,410 - INFO - Switched to profile: default
+2026-11-20 14:14:27,411 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:27,411 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:27,411 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:14:27,912 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:27,912 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:28,413 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:28,413 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:28,914 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:28,914 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:29,417 - INFO - Switched to profile: default
+2026-11-20 14:14:29,417 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:29,417 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:29,417 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:14:29,923 - INFO - Switched to profile: operator_2
+2026-11-20 14:14:29,924 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:29,924 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:29,924 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:14:30,426 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:30,427 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:30,928 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:30,929 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:31,434 - INFO - Switched to profile: default
+2026-11-20 14:14:31,435 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:31,435 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:31,436 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:14:31,936 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:31,937 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:32,439 - INFO - Switched to profile: operator_2
+2026-11-20 14:14:32,440 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:32,440 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:32,440 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:14:32,941 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:32,941 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:33,442 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': True}
+2026-11-20 14:14:33,443 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:33,443 - DEBUG - Pressed keys: {'right'}
+2026-11-20 14:14:33,945 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': True, 'right': False}
+2026-11-20 14:14:33,946 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:33,946 - DEBUG - Pressed keys: {'left'}
+2026-11-20 14:14:34,448 - DEBUG - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:34,448 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:34,449 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:14:34,950 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:34,950 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:35,451 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:35,451 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:35,952 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:35,952 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:36,457 - INFO - Switched to profile: default
+2026-11-20 14:14:36,458 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:36,459 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:36,459 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:14:36,965 - INFO - Switched to profile: operator_2
+2026-11-20 14:14:36,966 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:36,966 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:36,966 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:14:37,468 - INFO - Switched to profile: operator_2
+2026-11-20 14:14:37,468 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:37,468 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:37,468 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:14:37,969 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:37,969 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:38,470 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:38,470 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:38,971 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:38,971 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:38,971 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:14:39,472 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:39,472 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:39,472 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:14:39,973 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:39,973 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:40,474 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:40,474 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:40,975 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:40,976 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:41,477 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:41,477 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:41,978 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:41,978 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:42,479 - DEBUG - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:14:42,479 - DEBUG - ROV Controller Actions: None
+2026-11-20 14:14:42,537 - INFO - Stopping application
+2026-11-20 14:14:42,602 - INFO - ROV application stopped
+2026-11-20 14:16:15,291 - INFO - ROV application started
+2026-11-20 14:16:15,731 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:15,731 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:16,239 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:16,239 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:16,741 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': True, 'left': False, 'right': False}
+2026-11-20 14:16:16,741 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:16,742 - DEBUG - Pressed keys: {'down'}
+2026-11-20 14:16:17,242 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': True, 'left': False, 'right': False}
+2026-11-20 14:16:17,243 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:17,243 - DEBUG - Pressed keys: {'down'}
+2026-11-20 14:16:17,745 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': True, 'right': False}
+2026-11-20 14:16:17,746 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:17,747 - DEBUG - Pressed keys: {'left'}
+2026-11-20 14:16:18,248 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': True, 'right': False}
+2026-11-20 14:16:18,248 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:18,248 - DEBUG - Pressed keys: {'left'}
+2026-11-20 14:16:18,749 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:18,749 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:18,750 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:16:19,251 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': True}
+2026-11-20 14:16:19,251 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:19,251 - DEBUG - Pressed keys: {'right', 'up'}
+2026-11-20 14:16:19,752 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': True}
+2026-11-20 14:16:19,753 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:19,753 - DEBUG - Pressed keys: {'right'}
+2026-11-20 14:16:20,255 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': True, 'left': False, 'right': True}
+2026-11-20 14:16:20,256 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:20,257 - DEBUG - Pressed keys: {'down', 'right'}
+2026-11-20 14:16:20,758 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': True, 'left': True, 'right': False}
+2026-11-20 14:16:20,758 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:20,758 - DEBUG - Pressed keys: {'down', 'left'}
+2026-11-20 14:16:21,260 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:21,260 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:21,260 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:16:21,762 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:21,763 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:22,265 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:22,266 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:22,771 - INFO - Switched to profile: operator_2
+2026-11-20 14:16:22,772 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:22,772 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:22,773 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:16:23,278 - INFO - Switched to profile: operator_2
+2026-11-20 14:16:23,279 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:23,279 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:23,280 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:16:23,782 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:23,783 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:24,288 - INFO - Switched to profile: operator_2
+2026-11-20 14:16:24,289 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:24,290 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:24,291 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:16:24,795 - INFO - Switched to profile: operator_2
+2026-11-20 14:16:24,796 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:24,796 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:24,796 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:16:25,302 - INFO - Switched to profile: operator_2
+2026-11-20 14:16:25,303 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:25,303 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:25,304 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:16:25,805 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:25,805 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:26,306 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:26,307 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:26,808 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:26,809 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:27,313 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:27,314 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:27,815 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:27,816 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:28,317 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:28,318 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:28,818 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:16:28,819 - INFO - ROV Controller Actions: None
+2026-11-20 14:16:29,261 - INFO - Stopping application
+2026-11-20 14:16:29,313 - INFO - ROV application stopped
+2026-11-20 14:27:32,573 - INFO - ROV application started
+2026-11-20 14:27:33,018 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:33,018 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:33,523 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:33,523 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:34,024 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:34,024 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:34,525 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:34,526 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:35,029 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:35,030 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:35,531 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:35,532 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:36,034 - INFO - Switched to profile: default
+2026-11-20 14:27:36,034 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:36,035 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:36,035 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:27:36,536 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:36,536 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:37,038 - INFO - Switched to profile: default
+2026-11-20 14:27:37,038 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:37,039 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:37,039 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:27:37,540 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:37,540 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:38,041 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:38,041 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:38,543 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:38,544 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:38,545 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:27:39,050 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:39,050 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:39,051 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:27:39,552 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:39,552 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:39,552 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:27:40,054 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:40,055 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:40,056 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:27:40,557 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:40,558 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:40,559 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:27:41,065 - INFO - Switched to profile: operator_2
+2026-11-20 14:27:41,066 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:41,067 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:41,068 - DEBUG - Pressed keys: {'2'}
+2026-11-20 14:27:41,574 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:41,575 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:41,575 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:27:42,077 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:42,078 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:42,079 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:27:42,581 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:42,582 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:43,084 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:43,084 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:43,587 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:43,587 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:44,089 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:44,089 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:44,590 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:44,591 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:45,096 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:27:45,097 - INFO - ROV Controller Actions: None
+2026-11-20 14:27:45,536 - INFO - Stopping application
+2026-11-20 14:27:45,590 - INFO - ROV application stopped
+2026-11-20 14:37:35,316 - INFO - ROV application started
+2026-11-20 14:37:35,736 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:35,736 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:36,237 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:36,237 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:36,738 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:36,739 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:37,241 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:37,241 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:37,242 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:37:37,743 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:37,743 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:37,744 - DEBUG - Pressed keys: {'up'}
+2026-11-20 14:37:38,244 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:38,244 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:38,747 - INFO - Switched to profile: default
+2026-11-20 14:37:38,747 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:38,747 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:38,747 - DEBUG - Pressed keys: {'1'}
+2026-11-20 14:37:39,247 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:39,248 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:39,749 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:39,750 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:39,750 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:37:40,252 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:40,253 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:40,253 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:37:40,754 - INFO - ROV Keyboard Actions: {'forward': True, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:40,755 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:40,756 - DEBUG - Pressed keys: {'w'}
+2026-11-20 14:37:41,257 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:41,257 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:41,758 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:41,758 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:42,259 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:42,259 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:42,760 - INFO - ROV Keyboard Actions: {'forward': False, 'backward': False, 'left': False, 'right': False}
+2026-11-20 14:37:42,761 - INFO - ROV Controller Actions: None
+2026-11-20 14:37:43,206 - INFO - Stopping application
+2026-11-20 14:37:43,268 - INFO - ROV application stopped

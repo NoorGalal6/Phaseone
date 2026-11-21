@@ -1,0 +1,38 @@
+{
+    "input": {
+        "sampling_rate": 50,
+        "dead_zone": 0.1
+    },
+    "active_profile": "default",
+    "profiles": {
+        "default": {
+            "keyboard": {
+                "forward": "w",
+                "backward": "s",
+                "left": "a",
+                "right": "d"
+            },
+            "controller": {
+                "forward_axis": 1,
+                "left_axis": 0,
+                "arm_button": 0
+            }
+        },
+        "operator_2": {
+            "keyboard": {
+                "forward": "up",
+                "backward": "down",
+                "left": "left",
+                "right": "right"
+            },
+            "controller": {
+                "forward_axis": 1,
+                "left_axis": 0,
+                "arm_button": 1
+            }
+        }
+    },
+    "controller_profiles": {
+        "YOUR_CONTROLLER_NAME": "default"
+    }
+}
