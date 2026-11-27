@@ -1,38 +1,48 @@
 import threading
 from pynput import keyboard
 class Keyboard:
+
     def __init__(self):
+
         self.pressed_keys = set()
         self.lock = threading.Lock()
+
         self.listener = keyboard.Listener(
             on_press=self.on_press,
             on_release=self.on_release
         )
+
         self.listener.start()
 
-    def on_press(self, key):
+    def get_key_name(self, key):
+
         try:
-            key_name = key.char.lower()
+            return key.char.lower()
+
         except AttributeError:
-            key_name = str(key).replace("Key.", "")
+            return str(key).replace("Key.", "")
+
+    def on_press(self, key):
+
+        key_name = self.get_key_name(key)
 
         with self.lock:
             self.pressed_keys.add(key_name)
 
     def on_release(self, key):
-        try:
-            key_name = key.char.lower()
-        except AttributeError:
-            key_name = str(key).replace("Key.", "")
+
+        key_name = self.get_key_name(key)
 
         with self.lock:
             self.pressed_keys.discard(key_name)
 
     def read(self):
+
         with self.lock:
             return self.pressed_keys.copy()
 
     def get_actions(self, profile):
+
         keys = self.read()
         actions = {}
 
@@ -42,14 +52,19 @@ class Keyboard:
         return actions
 
     def get_profile_selection(self):
+
         keys = self.read()
 
         if "1" in keys:
             return "default"
+
         elif "2" in keys:
             return "operator_2"
 
         return None
 
     def close(self):
-        self.listener.stop()
+
+        if self.listener.is_alive():
+            self.listener.stop()
+            self.listener.join()

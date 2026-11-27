@@ -2,3 +2,4 @@ pygame-ce==2.5.8
 pytest
 ruff
 pynput
+pymavlink

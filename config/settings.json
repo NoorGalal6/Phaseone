@@ -1,3 +1,4 @@
+
 {
     "input": {
         "sampling_rate": 50,
@@ -10,7 +11,11 @@
                 "forward": "w",
                 "backward": "s",
                 "left": "a",
-                "right": "d"
+                "right": "d",
+                "up": "r",
+                "down": "f",
+                "yaw_left": "q",
+                "yaw_right": "e"
             },
             "controller": {
                 "forward_axis": 1,
@@ -23,7 +28,11 @@
                 "forward": "up",
                 "backward": "down",
                 "left": "left",
-                "right": "right"
+                "right": "right",
+                "up": "r",
+                "down": "f",
+                "yaw_left": "q",
+                "yaw_right": "e"
             },
             "controller": {
                 "forward_axis": 1,
@@ -34,5 +43,16 @@
     },
     "controller_profiles": {
         "YOUR_CONTROLLER_NAME": "default"
+    },
+    "admin": {
+        "host": "127.0.0.1",
+        "port": 5001,
+        "allowed_services": [
+            "bridge",
+            "camera_streamer"
+        ]
+    },
+    "mavlink": {
+        "connection": "udpin:127.0.0.1:14600"
     }
 }

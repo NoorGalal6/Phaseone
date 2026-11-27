@@ -1,5 +1,8 @@
+
 import threading
 import pygame
+
+
 class Controller:
 
     def __init__(self, dead_zone):
@@ -9,22 +12,31 @@ class Controller:
         self.joystick = None
         self.dead_zone = dead_zone
         self.lock = threading.Lock()
+
         self.connect()
 
     def connect(self):
+
         if pygame.joystick.get_count() == 0:
             print("No controller detected")
             return False
 
-        self.joystick = pygame.joystick.Joystick(0)
-        self.joystick.init()
+        try:
+            self.joystick = pygame.joystick.Joystick(0)
+            self.joystick.init()
 
-        print("Controller connected:", self.joystick.get_name())
+            print("Controller connected:", self.joystick.get_name())
+            return True
 
-        return True
+        except pygame.error:
+            self.joystick = None
+            return False
 
     def check_connection(self):
+
         with self.lock:
+            pygame.event.pump()
+
             count = pygame.joystick.get_count()
 
             if self.joystick is not None and count == 0:
@@ -38,36 +50,49 @@ class Controller:
                 self.connect()
 
     def read(self):
+
         with self.lock:
+
+            pygame.event.pump()
 
             if self.joystick is None:
                 return None
 
-            axes = []
-            buttons = []
-            hats = []
+            try:
+                axes = []
+                buttons = []
+                hats = []
 
-            for i in range(self.joystick.get_numaxes()):
-                value = self.joystick.get_axis(i)
+                for i in range(self.joystick.get_numaxes()):
+                    value = self.joystick.get_axis(i)
 
-                if abs(value) < self.dead_zone:
-                    value = 0.0
+                    if abs(value) < self.dead_zone:
+                        value = 0.0
 
-                axes.append(value)
+                    axes.append(value)
 
-            for i in range(self.joystick.get_numbuttons()):
-                buttons.append(self.joystick.get_button(i))
+                for i in range(self.joystick.get_numbuttons()):
+                    buttons.append(self.joystick.get_button(i))
 
-            for i in range(self.joystick.get_numhats()):
-                hats.append(self.joystick.get_hat(i))
+                for i in range(self.joystick.get_numhats()):
+                    hats.append(self.joystick.get_hat(i))
 
-            return {
-                "axes": axes,
-                "buttons": buttons,
-                "hats": hats
-        }
+                return {
+                    "axes": axes,
+                    "buttons": buttons,
+                    "hats": hats
+                }
+
+            except pygame.error:
+                print("Controller disconnected")
+
+                self.joystick = None
+                return None
+
     def close(self):
+
         with self.lock:
+
             if self.joystick is not None:
                 self.joystick.quit()
                 self.joystick = None
@@ -81,24 +106,31 @@ class Controller:
 
         mapping = profile["controller"]
 
-        if mapping["forward_axis"] >= len(data["axes"]):
+        forward_axis = mapping["forward_axis"]
+        left_axis = mapping["left_axis"]
+        arm_button = mapping["arm_button"]
+
+        if not (0 <= forward_axis < len(data["axes"])):
             return None
 
-        if mapping["left_axis"] >= len(data["axes"]):
+        if not (0 <= left_axis < len(data["axes"])):
             return None
 
-        if mapping["arm_button"] >= len(data["buttons"]):
+        if not (0 <= arm_button < len(data["buttons"])):
             return None
 
         actions = {
-            "forward": -data["axes"][mapping["forward_axis"]],
-            "left": -data["axes"][mapping["left_axis"]],
-            "arm": data["buttons"][mapping["arm_button"]] == 1
+            "forward": -data["axes"][forward_axis],
+            "left": -data["axes"][left_axis],
+            "arm": data["buttons"][arm_button] == 1
         }
 
         return actions
+
     def get_name(self):
+
         with self.lock:
+
             if self.joystick is None:
                 return None
 

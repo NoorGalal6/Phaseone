@@ -1,6 +1,4 @@
 import threading
-
-
 class EventBus:
 
     def __init__(self):
@@ -20,3 +18,4 @@ class EventBus:
 
         for callback in callbacks:
             callback(data)
+
